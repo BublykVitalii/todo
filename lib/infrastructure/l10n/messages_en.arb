@@ -58,7 +58,71 @@
   "close": "Close",
   "@close": {
     "type": "text"
-  }
+  },
+   "todoList": "Todo List",
+  "@todoList": {
+    "type": "text"
+  },
+   "enterTitle": "Enter todo",
+  "@enterTitle": {
+    "type": "text"
+  },
+  "editCase": "Edit Case",
+  "@editCase": {
+    "type": "text"
+  },
+   "cancel": "Cancel",
+  "@cancel": {
+    "type": "text"
+  },
+     "change": "Change",
+  "@change": {
+    "type": "text"
+   },
+  "exit": "Exit", 
+  "@exit": {
+    "type": "text"
+    },
+    "eMail": "email", 
+  "@eMail": {
+    "type": "text"
+    },
+"password": "Password", 
+  "@password": {
+    "type": "text"
+    },
+    "enter": "enter", 
+  "@enter": {
+    "type": "text"
+    },
+     "orSignInWithYourAccount": "Or sign in with your account", 
+  "@orSignInWithYourAccount": {
+    "type": "text"
+    },
+    "registration": "registration", 
+  "@registration": {
+    "type": "text"
+    },
+    "toRegister": "toRegister", 
+  "@toRegister": {
+    "type": "text"
+    },
+     "authentication": "Authentication", 
+  "@authentication": {
+    "type": "text"
+    },
+    "google": "google", 
+  "@google": {
+    "type": "text"
+    },
+    "todo": "Todo", 
+  "@todo": {
+    "type": "text"
+    },
+    "addTodo": "Create todo", 
+  "@addTodo": {
+    "type": "text"
+    }
 }
 
 

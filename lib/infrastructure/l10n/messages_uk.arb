@@ -58,5 +58,85 @@
   "close": "Зачинити",
   "@close": {
     "type": "text"
-  }
+  },
+   "todoList": "Список Справ",
+  "@todoList": {
+    "type": "text"
+  },
+   "enterTitle": "Введіть cправу",
+  "@enterTitle": {
+    "type": "text"
+  },
+   "editCase": "Редагувати cправу",
+  "@editCase": {
+    "type": "text"
+  },
+     "cancel": "Скасувати",
+  "@cancel": {
+    "type": "text"
+  },
+       "change": "Змінити", 
+  "@change": {
+    "type": "text"
+  },
+  "exit": "вхід", 
+  "@exit": {
+    "type": "text"
+    },
+    "eMail": "ел.пошта", 
+  "@eMail": {
+    "type": "text"
+    },
+"password": "пароль", 
+  "@password": {
+    "type": "text"
+    },
+    "enter": "увійти", 
+  "@enter": {
+    "type": "text"
+    },
+     "orSignInWithYourAccount": "Або увійти за допомогаю аккаунта", 
+  "@orSignInWithYourAccount": {
+    "type": "text"
+    },
+    "registration": "реєстрація", 
+  "@registration": {
+    "type": "text"
+    },
+    "toRegister": "зареєструватися", 
+  "@toRegister": {
+    "type": "text"
+    },
+    "authentication": "Aутентифікація", 
+  "@authentication": {
+    "type": "text"
+    },
+     "google": "google", 
+  "@google": {
+    "type": "text"
+    },
+    "todo": "Справи", 
+  "@todo": {
+    "type": "text"
+    },
+    "addTodo": "Створити справу", 
+  "@addTodo": {
+    "type": "text"
+    }
 }
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+

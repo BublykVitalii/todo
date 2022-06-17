@@ -5,7 +5,7 @@ import 'package:flutter_theme/infrastructure/theme/app_colors.dart';
 const _colorTheme = ColorScheme(
   brightness: Brightness.light,
   primary: AppColors.black,
-  onPrimary: AppColors.green,
+  onPrimary: Colors.white,
   secondary: AppColors.black,
   onSecondary: AppColors.green,
   error: Colors.red,
@@ -18,21 +18,21 @@ const _colorTheme = ColorScheme(
 
 Color _getCheckboxCheckedColor(Set<MaterialState> states) {
   if (!states.contains(MaterialState.disabled)) {
-    return AppColors.black;
+    return AppColors.green;
   }
   return Colors.grey;
 }
 
 Color _getCheckboxFillColor(Set<MaterialState> states) {
   if (!states.contains(MaterialState.disabled)) {
-    return AppColors.green;
+    return AppColors.black;
   }
   return AppColors.greenDark;
 }
 
 Color _getSwitchTrackColor(Set<MaterialState> states) {
   if (states.contains(MaterialState.disabled)) {
-    return Colors.grey;
+    return Colors.black;
   } else if (states.contains(MaterialState.selected)) {
     return AppColors.black;
   }
@@ -41,7 +41,7 @@ Color _getSwitchTrackColor(Set<MaterialState> states) {
 
 Color _getSwitchThumbColor(Set<MaterialState> states) {
   if (states.contains(MaterialState.disabled)) {
-    return Colors.grey;
+    return AppColors.green;
   } else if (states.contains(MaterialState.selected)) {
     return AppColors.green;
   }
@@ -90,9 +90,11 @@ ThemeData getLightTheme(BuildContext context) {
       decorationColor: AppColors.black,
     ),
   ).copyWith(
+    iconTheme: const IconThemeData(color: Colors.black),
     textButtonTheme: TextButtonThemeData(
       style: TextButton.styleFrom(
-        primary: AppColors.black,
+        backgroundColor: AppColors.black,
+        primary: AppColors.green,
         padding: textButtonScaledPadding,
       ).copyWith(
         side: MaterialStateProperty.resolveWith(_getOutlinedColor),
@@ -115,9 +117,6 @@ ThemeData getLightTheme(BuildContext context) {
     ),
     brightness: Brightness.light,
     scaffoldBackgroundColor: Colors.white,
-    appBarTheme: const AppBarTheme(
-      iconTheme: IconThemeData(color: AppColors.green),
-    ),
     checkboxTheme: CheckboxThemeData(
       fillColor: MaterialStateProperty.resolveWith((_getCheckboxFillColor)),
       checkColor: MaterialStateProperty.resolveWith(_getCheckboxCheckedColor),
